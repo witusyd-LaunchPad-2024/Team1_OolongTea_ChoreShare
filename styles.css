@@ -1,0 +1,103 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cascadia Mono', monospace;
+    background-color: #262730;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 14px;
+    padding: 10px;
+}
+
+/* Container for the quests */
+.container {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Header styling */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #aad4dc;
+    text-shadow: 2px 2px #000;
+}
+
+/* Button styling */
+.generate-btn {
+    background-color: #ffe0f8;
+    color: #000;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-family: 'Cascadia Mono', monospace;
+}
+
+.generate-btn:hover {
+    background-color: #ffffff;
+}
+
+/* Pixelated styling for quest list */
+.quest-list {
+    list-style: none;
+    padding: 0;
+}
+
+.quest-list li {
+    background-color: #93a3b4;
+    border: 2px solid #222;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: left;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+/* Checkbox styles */
+.quest-list input[type="checkbox"] {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+/* Aesthetic for completed quests */
+.quest-list input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+    color: #aaa;
+}
+
+/* Font import for pixel style */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* Media query to ensure mobile-first design */
+@media (max-width: 768px) {
+    body {
+        font-size: 12px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .quest-list li {
+        padding: 8px;
+    }
+}
