@@ -8,6 +8,7 @@
 </head>
 <body>
 
+    
     <!-- Header -->
     <header>
         <div class="logo">ChoreShare</div>
@@ -24,25 +25,32 @@
         <a href="#">Profile</a>
     </nav>    
 
-        <button id="generateQuests" class="generate-btn">Generate Chores</button>
-
 <ul class="quest-list" id="questList">
     <!-- Example static quest items, these will be dynamically populated -->
     <li class="quest-item">
         <h3>The Dusting of Forgotten Shelves</h3>
         <p>Wipe away the dust from shelves and surfaces, restoring them to their former glory.</p>
-        <button class="complete-btn">Mark as Complete</button>
+        <form action="create_post.html">
+            <button class="complete-btn">Mark as Complete</button>
+        </form>
     </li>
     <li class="quest-item">
         <h3>The Refrigerator’s Secret: The Forgotten Spoils</h3>
         <p>Raid the fridge and dispose of expired or forgotten food to make space for new provisions.</p>
-        <button class="complete-btn">Mark as Complete</button>
+        <form action="create_post.html">
+            <button class="complete-btn">Mark as Complete</button>
+        </form>
     </li>
 </ul>
+        <button id="generateQuests" class="generate-btn">Generate Chores</button>
+
+        <button id="Add Manual Chore" class="generate-btn">Add Manual Chore</button>
+
         <ul class="quest-list" id="questList">
             <!-- Quests will be dynamically populated here -->
         </ul>
     </div>
     <script src="script.js"></script>
+
 </body>
 </html>

@@ -28,15 +28,15 @@
     <section class="post-section">
         <h2>Create a New Post</h2>
         <div class="create-post-form">
-            <form id="postForm">
+            <form action="index_new_post.html" id="postForm">
                 <label for="postTitle">Post Title:</label>
-                <input type="text" id="postTitle" placeholder="The Refrigerator’s Secret: The Forgotten Spoils" required>
+                <input type="text" id="postTitle" placeholder="The Refrigerator's Secret: The Forgotten Spoils" value="The Refrigerator's Secret: The Forgotten Spoils">
 
                 <label for="postChore">Chore Description:</label>
-                <textarea id="postChore" placeholder="Wipe away the dust from shelves and surfaces, restoring them to their former glory." required></textarea>
+                <textarea id="postChore" placeholder="Wipe away the dust from shelves and surfaces, restoring them to their former glory." value="Wipe away the dust from shelves and surfaces, restoring them to their former glory."></textarea>
 
                 <label for="postImage">Image</label>
-                <input type="url" id="postImage" placeholder="Upload an image">
+                <input type="file" id="postImage" placeholder="Upload an image">
 
                 <button type="submit">Post</button>
             </form>
