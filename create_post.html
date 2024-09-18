@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Post - ChoreShare</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">ChoreShare</div>
+        <div class="user-profile">
+            <img src="images/housekeeper.png" alt="User Profile">
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="top-nav">
+        <a href="index.html">Home</a>
+        <a href="friends.html">Friends</a>
+        <a href="chores.html">My Chores</a>
+        <a href="profile.html">Profile</a>
+    </nav>    
+
+    <!-- Create Post Section -->
+    <section class="post-section">
+        <h2>Create a New Post</h2>
+        <div class="create-post-form">
+            <form id="postForm">
+                <label for="postTitle">Post Title:</label>
+                <input type="text" id="postTitle" placeholder="Title" required>
+
+                <label for="postChore">Chore Description:</label>
+                <textarea id="postChore" placeholder="Describe the chore you completed" required></textarea>
+
+                <label for="postImage">Image URL (optional):</label>
+                <input type="url" id="postImage" placeholder="https://example.com/image.jpg">
+
+                <button type="submit">Post</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Feed Section where new posts will appear -->
+    <section class="feed" id="feed">
+        <h2>My Feed</h2>
+        <!-- Posts will be dynamically added here -->
+    </section>
+
+    <script type="text/javascript" src="scripts.js"></script>
+
+</body>
+</html>

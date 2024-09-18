@@ -140,3 +140,149 @@ header .user-profile img {
 .post-actions {
     display: flex;
     justify-content: space-between;
+
+    
+}
+
+/* Friends List Section */
+.friends-list {
+    margin: 10px auto;
+    max-width: 600px; /* Keep it similar to feed width */
+}
+
+.friend {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.friend-header {
+    display: flex;
+    align-items: center;
+}
+
+.friend-header img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.friend-details h3 {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.friend-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.friend-actions button {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.friend-actions button:hover {
+    background-color: #e65b52;
+}
+
+/* Style for the Create Post form */
+.create-post-form {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+.create-post-form h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #0D0221;
+}
+
+/* Styling the form fields */
+.create-post-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.create-post-form label {
+    font-size: 1em;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.create-post-form input[type="text"],
+.create-post-form input[type="url"],
+.create-post-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1em;
+}
+
+.create-post-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* Style for the submit button */
+.create-post-form button[type="submit"] {
+    padding: 12px 15px;
+    background-color: #0F084B;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    text-align: center;
+}
+
+.create-post-form button[type="submit"]:hover {
+    background-color: #333d79;
+}
+
+/* Add some focus effect to inputs */
+.create-post-form input:focus,
+.create-post-form textarea:focus {
+    outline: none;
+    border-color: #0F084B;
+    box-shadow: 0px 0px 5px rgba(15, 8, 75, 0.5);
+}
+
+/* Add a media query for responsiveness */
+@media (max-width: 600px) {
+    .create-post-form {
+        padding: 15px;
+        margin: 10px;
+    }
+    
+    .create-post-form h2 {
+        font-size: 1.2em;
+    }
+
+    .create-post-form input[type="text"],
+    .create-post-form input[type="url"],
+    .create-post-form textarea {
+        font-size: 0.9em;
+    }
+    
+    .create-post-form button[type="submit"] {
+        font-size: 0.9em;
+        padding: 10px;
+    }
+}
