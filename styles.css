@@ -286,3 +286,62 @@ header .user-profile img {
         padding: 10px;
     }
 }
+
+/* Button Styles */
+.generate-btn {
+    display: block;
+    margin: 20px auto; /* Center the button horizontally */
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 10px 20px; /* Add some padding for size */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.generate-btn:hover {
+    background-color: #e65b52; /* Darker color on hover */
+}
+
+/* Quest List Styles */
+.quest-list {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 20px auto; /* Center the quest list */
+    max-width: 600px; /* Set a maximum width for consistency with the feed */
+}
+
+.quest-item {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Similar shadow to the feed cards */
+}
+
+.quest-item h3 {
+    margin-bottom: 8px;
+    font-size: 1.2em;
+}
+
+.quest-item p {
+    font-size: 0.9em;
+    color: gray;
+    margin-bottom: 12px;
+}
+
+.complete-btn {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.complete-btn:hover {
+    background-color: #e65b52;
+}
