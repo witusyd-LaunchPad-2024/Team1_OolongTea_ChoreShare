@@ -1,4 +1,4 @@
-# ChoreShare: Make every chore feel like an achievement
+# ChoreShare: Make every chore feel like an accomplishment
 
 🧼 A social media platform that turns chores fun into a shared experience with badges, leaderboards, and competitions <br>
 👯 Connect with friends and gain motivation
