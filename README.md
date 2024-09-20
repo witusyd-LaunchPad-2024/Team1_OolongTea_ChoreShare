@@ -1,6 +1,6 @@
 # ChoreShare
 
-A social media platform that turns chores fun into a shared experience with badges, leaderboards, and competitions 🧼 Let's every chore feel like an accomplishment 🏆
+🧼 A social media platform that turns chores fun into a shared experience with badges, leaderboards, and competitions <br> Let's every chore feel like an accomplishment 🏆
 
 ## Technologies Used
 - HTML <br>
