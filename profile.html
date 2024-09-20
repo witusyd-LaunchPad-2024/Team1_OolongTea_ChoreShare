@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile - ChoreShare</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+
+    .profile {
+      margin-top: 20px;
+    }
+
+    .profile-picture-heading {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .profile-picture img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 0 auto;
+      display: block;
+    }
+
+    .bio-box {
+      border: 1px solid #ccc;
+      width: 60%;
+      margin: 20px auto;
+      padding: 20px;
+      text-align: left;
+      border-radius: 8px;
+      background-color: #f9f9f9;
+    }
+
+    .bio-box h2, .bio-box p {
+      margin: 10px 0;
+    }
+
+    .progress-container {
+      margin-top: 30px;
+    }
+
+    .progress-heading {
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+
+    .progress-circle {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 5px solid black;
+      background: conic-gradient(#4caf50 0% 72%, #ccc 72% 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 26px;
+      color: white;
+      font-weight: bold;
+      margin: 0 auto;
+    }
+
+    .progress-text {
+      margin-top: 10px;
+      font-size: 16px;
+      color: #333;
+    }
+
+    .accomplishments {
+      margin-top: 40px;
+    }
+
+    .accomplishments h3 {
+      font-size: 22px;
+      margin-bottom: 20px;
+    }
+
+    .accomplishment-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .accomplishment-list li {
+      margin-bottom: 10px;
+      font-size: 18px;
+      background-color: #e0f7fa;
+      border-radius: 5px;
+      padding: 10px;
+      width: 50%;
+      margin: 10px auto;
+      box-shadow: 1px 1px 5px #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">ChoreShare</div>
+    <div class="user-profile">
+      <img src="images/housekeeper.png" alt="User Profile">
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="top-nav">
+    <a href="index.html">Home</a>
+    <a href="friends.html">Friends</a>
+    <a href="#">My Chores</a>
+    <a href="profile.html" class="active">Profile</a>
+  </nav>
+
+  <!-- Profile Page Content -->
+  <section class="profile">
+    <div class="profile-picture-heading">Your Profile Picture</div>
+    <div class="profile-picture">
+      <img src="images/profilepic.jpeg" alt="User Profile Picture">
+    </div>
+
+    <div class="bio-box">
+      <h2>Emily Carter</h2>
+      <p>Hello! I’m Emily Carter. I love organizing and sharing my chore accomplishments with others. Whether it’s tidying up my space or tackling new projects, I’m always excited to see how small tasks contribute to a big difference. Join me in making home chores fun and rewarding!</p>
+    </div>
+
+    <div class="progress-container">
+      <div class="progress-heading">Your Daily Progress</div>
+      <div class="progress-circle">
+        72%
+      </div>
+      <div class="progress-text">You accomplished 72% of the tasks today! Keep it up and earn more rewards!</div>
+    </div>
+
+    <div class="accomplishments">
+      <h3>Your Accomplishments</h3>
+      <ul class="accomplishment-list">
+        <li>🏅 "The Tidy Tornado": Cleaned the entire kitchen in under 15 minutes!</li>
+        <li>🏆 "Laundry Legend": Conquered the mountain of laundry and folded it all!</li>
+        <li>✨ "Sparkling Spree": Made the bathroom shine brighter than the sun!</li>
+        <li>🎯 "Chore Champion": Completed all assigned chores before noon!</li>
+      </ul>
+    </div>
+  </section>
+
+</body>
+</html>
